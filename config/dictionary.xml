@@ -1,0 +1,59 @@
+<Dictionary xmlns="http://oppidoc.com/oppidum/site">
+    <Translations lang="en">
+
+    <!--*********************************************************-->
+    <!-- Common terms (form fields labels, column headers, etc.) -->
+    <!--*********************************************************-->
+        <Translation key="term.no">No</Translation>
+        <Translation key="term.phone">Phone</Translation>
+        <Translation key="term.email">Email</Translation>
+        <!--***********************************************-->
+        <!-- Application level titles, labels and messages -->
+        <!--***********************************************-->
+        <Translation key="app.nav.guidelines">About</Translation>
+        <Translation key="app.window.title">VPI EPFL</Translation>
+        <Translation key="app.window.title0">VPI EPFL</Translation>
+        <Translation key="app.banner.title1">VPI</Translation>
+        <Translation key="app.banner.title2">EPFL</Translation>
+        
+        <Translation key="app.nav.home">Home</Translation>
+        <Translation key="app.nav.accounts">Accounts</Translation>
+        <Translation key="app.nav.contacts">Contacts</Translation>
+        <Translation key="app.nav.projects">Projects</Translation>
+        <Translation key="app.nav.events">Events</Translation>
+        <Translation key="app.nav.reporting">Reporting</Translation>
+        <Translation key="app.nav.admin">Admin</Translation>
+        <!--*******-->
+        <!-- Login -->
+        <!--*******-->
+        <Translation key="login.hold">Mise à jour du système, veuillez patienter quelques minutes svp...</Translation>
+        <Translation key="login.title">Identification</Translation>
+        <Translation key="login.user">Nom d'utilisateur</Translation>
+        <Translation key="login.pwd">Mot de passe</Translation>
+        <Translation key="login.forgotten">Mot de passe oublié</Translation>
+        <Translation key="login.forgotten.hint">Envoi d'un nouveau mot de passe par e-mail</Translation>
+        
+        <!--*****************-->
+        <!-- Password tunnel -->
+        <!--*****************-->
+        <Translation key="pwd.title">Password forgotten</Translation>
+        <Translation key="pwd.hint">If you need a new password, please indicate your user name and your address (the one registered in the application) in the field below</Translation>
+        <Translation key="pwd.email">Email</Translation>
+        <Translation key="pwd.sentByEmail">Your new password has been sent to the following address: </Translation>
+        <Translation key="account.title">User Account Management</Translation>
+        <Translation key="account.pwd.hint">You can modify your password by following the instructions of the Form bellow. Pay attention to the number of characters which must be at least 8. Spaces at the beginning and at the end do not count</Translation>
+        <Translation key="account.pwd">New password</Translation>
+        <Translation key="account.pwd.bis">Enter password again</Translation>
+        <Translation key="account.identity1">You are connected as</Translation>
+        <Translation key="account.identity2">So you are</Translation>
+        <Translation key="pwd.updated">Your new password has been registered</Translation>
+        <Translation key="account.continue.hint">You can keep browsing, make use of your new password the next time you want to open the system</Translation>
+        <!--*****************************-->
+        <!-- Exact terms (button labels) -->
+        <!--*****************************-->
+        <Translation key="action.cancel">Cancel</Translation>
+        <Translation key="action.new.pwd">New password</Translation>
+        <Translation key="action.submit.pwd">Change password</Translation>
+        
+    </Translations>
+</Dictionary>

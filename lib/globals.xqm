@@ -34,6 +34,8 @@ declare variable $globals:database-file-uri := '/db/www/vpi-epfl/config/database
 (: Application entities paths :)
 declare variable $globals:persons-uri := '/db/sites/vpi-epfl/persons';
 declare variable $globals:enterprises-uri := '/db/sites/vpi-epfl/enterprises/enterprises.xml';
+declare variable $globals:accounts-uri := '/db/sites/vpi-epfl/accounts/accounts.xml';
+
 declare variable $globals:cases-uri := '/db/sites/vpi-epfl/cases';
 
 (: MUST be aligned with xcm/lib/globals.xqm :)
