@@ -41,16 +41,7 @@
 
         </div>
         <div id="aboutcontent">
-          <!--
-          <a href="#video">
-            <xsl:apply-templates select="WebPage/Boxes/Box[4]/BoxContent/BoxTitle[1]"/>
-          </a>
-          <a href="#">
-            <xsl:apply-templates select="WebPage/Boxes/Box[4]/BoxContent/BoxTitle[2]"/>
-          </a>
-          <a href="#resources">
-            <xsl:apply-templates select="WebPage/Boxes/Box[4]/BoxContent/BoxTitle[3]"/>
-          </a>-->
+      
           <img class="logos" src="{xslt.base-url}static/vpi-epfl/images/calendar.png"/>
 
         </div>
@@ -146,40 +137,12 @@
         <div id="abouttitle">
           <xsl:apply-templates select="WebPage/Boxes/Box[4]/*"/>
         </div>
-        <div id="topics">
-          <table class="table table-bordered">
-            <thead>
-              <!--  <tr>
-          <th colspan = "7" loc="term.resource">
-            Resource
-          </th>
-          <th rowspan="2" loc="term.relatedTopics">
-            Related topics
-          </th>
+        <div id="aboutcontent">
           
-        </tr>-->
-              <tr bgcolor="#9EC0D9">
-                <th loc="term.name">Title</th>
-                <th class="homew" loc="term.date">Date</th>
-
-
-
-              </tr>
-            </thead>
-            <tbody bgcolor="#FFF" localized="1">
-              <xsl:apply-templates select="WebPage/TopTopics/Topic"/>
-            </tbody>
-          </table>
-          <!--<div class="row project">
-            <xsl:if test="contains($xslt.rights, 'modifier')">
-              <button class="inplacedit" title="sélectionner la nouvelle(s)" onclick="javascript:window.location.href ='home/nouvelles/choisir'">Choisir</button>
-            </xsl:if>
-            <xsl:apply-templates select="WebPage/News/NewsItem"/>
-            <xsl:if test="not(WebPage/News/NewsItem) and contains($xslt.rights, 'modifier')">
-              <p>Cliquez sur le bouton pour ajouter une nouvelle</p>
-            </xsl:if>
-          </div>-->
+          <img class="projectImage" src="{xslt.base-url}static/vpi-epfl/images/projects.png"/>
+          
         </div>
+        
         <!-- <xsl:call-template name="contact"/> -->
       </site:topics>
 
@@ -258,7 +221,16 @@
         <h5 class="affiliate"><xsl:apply-templates select="Afiliates"/></h5>
       </td>
       <td>
-        <xsl:value-of select="WebSite"/>
+        <xsl:element name="a">
+          <xsl:attribute name="target">_blank</xsl:attribute>
+          <xsl:attribute name="href">
+            <xsl:if test="starts-with(WebSite, 'www')">http://</xsl:if>
+            <xsl:value-of select="WebSite"/>
+          </xsl:attribute>
+          <xsl:if test="starts-with(WebSite, 'www')">http://</xsl:if>
+          <xsl:value-of select="WebSite"/>
+        </xsl:element>
+        
 
       </td>
 

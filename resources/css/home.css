@@ -8,14 +8,22 @@ th.homew{
 }
 img.logos{
     margin-right: 8px;
+
+}
+img.projectImage{
+    width: 100%;
+   border: solid 1px #AAA;
+height: 278px;
     
 }
 h4.mainaccount{
-    margin-bottom: .01em;
-	margin-top: .01em;
+    margin-bottom: .0em;
+    margin-top: .0em;
+    line-height: 20px;
 }
 h5.affiliate{
     margin-left: 20px;
-    margin-bottom: .01em;
-	margin-top: .01em;
+    margin-bottom: .0em;
+    margin-top: .0em;
+    line-height: 19px;
 }
