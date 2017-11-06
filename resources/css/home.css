@@ -8,7 +8,14 @@ th.homew{
 }
 img.logos{
     margin-right: 8px;
+    
 }
-h4.affiliate{
+h4.mainaccount{
+    margin-bottom: .01em;
+	margin-top: .01em;
+}
+h5.affiliate{
     margin-left: 10px;
+    margin-bottom: .01em;
+	margin-top: .01em;
 }

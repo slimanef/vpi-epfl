@@ -254,8 +254,8 @@
     <tr class="unstyled" data-id="{Id}">
       <td>
 
-        <xsl:apply-templates select="Name"/><br/>
-        <h4 class="affiliate"><xsl:apply-templates select="Afiliates"/></h4>
+        <h4 class="mainaccount"><xsl:apply-templates select="Name"/></h4>
+        <h5 class="affiliate"><xsl:apply-templates select="Afiliates"/></h5>
       </td>
       <td>
         <xsl:value-of select="WebSite"/>
